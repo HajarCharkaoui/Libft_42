@@ -32,8 +32,10 @@ Clone the repository and run `make` to compile the library.
 ```bash
 make
 ```
-This will generate the static library file libft.a.2. Using it in your codeTo use this library in your projects, include the header file and link the library during compilation.Include Header:C#include "libft.h"
+This will generate the static library file libft.a.2. Using it in your codeTo use this library in your projects, include the header file and link the library during compilation.
+Include Header:
 ```c
+#include "libft.h"
 int main()
 {
     ft_putstr_fd("Hello, Libft!", 1);
@@ -47,6 +49,7 @@ cc main.c libft.a -o my_program
 ### 📋 List of Functions
 Part 1 - Libc Functions
 Re-implementations of standard C library functions.
+
 | Function | Description |
 | :--- | :--- |
 | `ft_isalpha` | Checks for an alphabetic character. |
